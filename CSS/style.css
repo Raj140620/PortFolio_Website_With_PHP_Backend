@@ -1,0 +1,565 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+h2{
+    color: #003853;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-decoration: underline solid #dc3545;
+
+}
+/* Multi Language */
+#google_translate_element {
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  margin-left: 20px;
+  background-color: rgb(246, 244, 244);
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+.navbar-toggler{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+    }
+.navbar-toggler:focus{
+outline: unset;
+border: unset;
+box-shadow: none;
+}
+
+.nav-item{
+text-align: center;
+
+ }
+.nav-item:hover .nav-link:hover{
+    color: #fff;
+    background-color: #dc3545;
+    border-radius: 75px 75px;
+  }
+.nav-item .nav-link {
+    padding: 5px 15px;
+    margin: 0 5px;
+  }
+  
+  /* Optional: Adjust other styles, like font size and border radius */
+.nav-item .nav-link {
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+   /* Custom CSS for banner */
+    .marquee-container {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    background-color: #003853;
+    color: #fff;
+    
+  }
+  
+  .marquee-text {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    animation: marquee 15s linear infinite;
+    transform: translateX(100%);
+    padding: 15px;
+    
+  }
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+   .portfolio-banner {
+
+    color: #003853;
+    text-align: center;
+    padding: 93px 0;
+
+  }
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #003853;
+    margin-bottom: 20px; 
+    box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.3);
+  }
+  .banner-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+/* Conter Style */
+.counter {
+  background-color:#003853;
+  padding: 2rem 0;
+}
+.counter p {
+  color:#fff;
+  text-transform: uppercase;
+}
+.counter h3 {
+  color: #dc3545;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+#about #paragraph {
+  color: #ffffff;
+  background-color: #dc3545;
+  border: 5px solid #003853;
+  padding: 20px;
+  animation: side 3s linear infinite;
+  /* background: rgb(220,53,69);
+  background: linear-gradient(90deg, rgb(190, 64, 76) 0%, rgb(2, 62, 92) 100%); */
+}
+
+#about .myself{
+color:#003853;
+}
+@keyframes side {
+  0%,100%{
+    transform: translateX(0rem);
+  }
+  50%{
+    transform: translateX(2rem);
+  }
+}
+  #about .img-fluid{
+    border: 5px solid #dc3545;
+    animation: up 3s linear infinite;
+  }
+   @keyframes up {
+    0%,100%{
+      transform: translateY(0rem);
+    }
+    50%{
+      transform: translateY(3.5rem);
+    }
+  }
+ 
+  
+  /* ##### Parlexx Effect ##### */
+#paralex{
+    width: 100%;
+    background: url(/Images/BG-Images/Paralax-Image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 2.375rem 0;
+}
+#paralex .btn{
+  padding: 13px;
+  margin-top: 10px;
+}
+
+
+  .skills-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+
+  /* Customize the skill name's appearance */
+  .skill-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  /* Customize the unique progress bar's appearance */
+  .progress {
+    height: 30px;
+    border-radius: 15px;
+  }
+
+  .progress-bar {
+    background-color: #dc3545; /* Change progress bar color */
+    border-radius: 15px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+  }
+  .skill-name{
+    color: #003853;
+  }
+
+  /* ##### Service Section ##### */
+
+  #service span {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+  }
+  #service .section_head {
+    margin-bottom: 60px;
+  }
+  #service .section_head h4 {
+    position: relative;
+    padding: 0;
+    color:#601de6;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+  }
+  #service .section_head h4::before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  #service .section_head h4 span {
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: #003853;
+    text-decoration: underline solid #dc3545;
+  }
+  #service .section_head p {
+    color: #818181;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .item {
+    background: #fff;
+    text-align: center;
+    padding: 30px 25px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 50px 50px 50px 50px solid rgba(0, 0, 0, 0.07);
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+  }
+  .item:hover {
+    background: #003853;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+  }
+  .item:hover .item,
+  .item:hover span.icon {
+    background: #fff;
+    border-radius: 10px;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+  }
+  .item:hover h5,
+  .item:hover p {
+    color: #fff;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+  }
+  .item .icon {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #f91942;
+    width: 90px;
+    height: 90px;
+    line-height: 96px;
+    border-radius: 50px;
+  }
+  .item .feature_box_col_one {
+    background: rgba(247, 2, 235, 0.2);
+  }
+  .item .feature_box_col_two {
+    background: rgba(146, 39, 255, 0.15);
+  }
+  .item .feature_box_col_three {
+    background: rgba(0, 147, 38, 0.15);
+  }
+  .item .feature_box_col_four {
+    background: rgba(0, 108, 255, 0.15);
+  }
+  .item .feature_box_col_five {
+    background: rgba(231, 77, 11, 0.15);
+  }
+  .item .feature_box_col_six{
+    background: rgba(143, 166, 113, 0.20);
+  }
+  .item p {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .item h5 {
+    font-size: 20px;
+    color: #2f2f2f;
+  }
+
+  
+/* Header Section */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+#about {
+    padding: 4rem 0;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #fff;
+    padding: 4rem 0;
+}
+
+#portfolio h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.card {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 20px 6px 20px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.card h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 1.1rem;
+}
+
+
+ /* Certificates Section */
+  .slick-slider{
+    margin: 0px 15px;
+  }
+  .slide-1 img{
+    width: 100%;
+    border: 4px solid #dc3545;
+  }
+  .slide-2 img{
+    width: 100%;
+    border: 4px solid #003853;
+  }
+  .slide img{
+    transition: all 1.2s;
+  }
+  .slide img:hover{
+    transform: scale(1.1);
+  }
+
+
+/* Contact Section */
+#contact {
+    background-color: #f4f4f4;
+    padding: 4rem 0;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+textarea.form-control {
+    resize: vertical;
+    padding-left: 40px;
+}
+
+.btn-primary {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #003853;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-links a {
+    text-decoration: none;
+    margin: 15px 10px;
+    position: relative;
+    font-size: 15px;
+    color: #fff;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.footer-links a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #dc3545;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff6b6b;
+}
+
+.footer-links a:hover::before {
+    transform: scaleX(1);
+}
+  ::-webkit-scrollbar{
+    width: 18px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #dc3545;
+  }
+
+/* Media Queries for Responsive Design */
+
+/* Small devices (phones) */
+@media (max-width: 576px) {
+    .jumbotron h1 {
+        font-size: 2.5rem;
+    }
+    .jumbotron p {
+        font-size: 1rem;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+    #about h2,
+    #portfolio h2,
+    #contact h2 {
+        font-size: 2rem;
+    }
+    .card h4 {
+        font-size: 1.3rem;
+    }
+    .card p {
+        font-size: 1rem;
+    }
+    .btn-primary {
+        font-size: 1rem;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .jumbotron h1 {
+        font-size: 3rem;
+    }
+    .jumbotron p {
+        font-size: 1.2rem;
+    }
+    #about h2,
+    #portfolio h2,
+    #contact h2 {
+        font-size: 2.5rem;
+    }
+    .card h4 {
+        font-size: 1.5rem;
+    }
+    .btn-primary {
+        font-size: 1.1rem;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+    .jumbotron h1 {
+        font-size: 4rem;
+    }
+    .jumbotron p {
+        font-size: 1.4rem;
+    }
+    #about h2,
+    #portfolio h2,
+    #contact h2 {
+        font-size: 3rem;
+    }
+    .card h4 {
+        font-size: 1.6rem;
+    }
+    .btn-primary {
+        font-size: 1.3rem;
+    }
+}
+
+
