@@ -9,9 +9,9 @@
 <br>
 <li>Pull This Website Form My Git-Hub To Your Local Device .</li>
 <br>
-<li>Then Extract The Folder And Move This Folder In "C:\xampp\htdocs\Portfolio". Here "\Portfolio" Folder Is A User Defined Folder . </li>
+<li>Then Extract The Folder And Move This Folder In " C:\xampp\htdocs\Portfolio ". Here " \Portfolio " Folder Is A User Defined Folder . </li>
 <br>
-<li>Then Start The XAMPP Server. Then After Click Start Buttons Of "Apache" and "MySQL". After They Become Green Click Admin Button Of "MySQL".After That It Will Open A " PHP My Admin " Tab In Your Default Browser. </li>
+<li>Then Start The XAMPP Server. Then After Click Start Buttons Of " Apache " and " MySQL " .After They Become Green Click Admin Button Of " MySQL ".After That It Will Open A " PHP My Admin " Tab In Your Default Browser. </li>
 <br>
 <li>Then In The " PHP My Admin " Click Import Then Choose My MySQL Database File From My Above Database Folder Then Click Import. </li>
 <br>
