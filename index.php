@@ -25,6 +25,10 @@
 
     <!-- Custom CSS-->
     <link rel="stylesheet" href="./CSS/style.css">
+    
+    
+    <!-- Magnifier (Project Section) CSS-->
+    <link rel="stylesheet" href="./CSS/magnifier/magnify.css">
 
 
 </head>
@@ -43,7 +47,7 @@
   
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <a class="navbar-brand ml-3" href="#"><img src="/Images/BG-Images/logo.png"  height="40" width=""></a>
+        <a class="navbar-brand ml-3" href="#"><img src="./Images/BG-Images/logo.png"  height="40" width=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa-solid fa-bars-staggered fa-bounce fa-xl" style="color: #dc3545;"></i>
@@ -74,14 +78,14 @@
     <!-- Header Section -->
       <div class="marquee-container">
         <div class="marquee-text">
-          <span>My❤️is for Computer Networking and System Administration , But 🧠 is for Data and Data Science🚀.</span>
+          <span>My❤️is for Computer Networking and System Administration , But 🧠 is for Security and Cloud Computing🚀.</span>
         </div>
       </div>
        <div class="portfolio-banner">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <img src="./Images/BG-Images/Profile-Image.png" alt="Profile Image" class="profile-image">
+              <img src="./Images/BG-Images/Profile-Image.png" class="profile-image zoom" data-magnify-src="./Images/BG-Images/Profile-Image.png" alt="Profile Image">
 
               <div class="banner-content">
                 <h1 style="font-size: 2.3rem;">Hi, I'm <span style="color: #dc3545;">Raj</span></h1>
@@ -140,7 +144,7 @@
             <p id="paragraph">Hello there! I'm <span class="myself">Raj Kumar</span> , very passionate about Network & System Administration. With a background in Advance Diploma In IT Networking & Cloud Computing . Through my portfolio, you'll witness a fusion of creativity and expertise in <span class="myself">Windows Server , Cisco Packet Tracer , Linux </span> etc. Let's embark on a transformative journey together and make an impact. Excited to connect and explore opportunities with you!</p>
               </div>
               <div class="col-lg-5 offset-lg-1 mb-5">
-                <img class="img img-fluid" src="/Images/BG-Images/code.gif">
+                <img class="img img-fluid" src="./Images/BG-Images/code.gif">
               </div>
             </div>
         </div>
@@ -190,34 +194,185 @@
             </div>
           </div>
         </section>
+        
+        
+        
+     <!-- Blog Section -->
+     <section class="work-box">
+      <h2 class="mt-5">My Blogs</h2>
+
+      <div class ="container">
+          <div class="row">
+              <div class="col-lg-12">
+               <div class="box-menu">
+                <ul>
+                  <li class="mixtup-control-active" data-filter="*">
+                      All
+                  </li>
+                  <li data-filter=".linux">Linux</li>
+                  <li data-filter=".cloud">Cloud</li>
+                  <li data-filter=".docker">Container</li>
+                </ul>  
+               </div>   
+              </div>
+              <div class="container mt-5">
+                <div class="row box-list">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mix linux">
+                        <div class="card-container ">
+                            <div class="card-flip shadow-lg">
+                                <div class="card card-front">
+                                    <img src="./Images/Blog-images/Linux-directory-structure.jpg" class="card-img-top" alt="Card Front">
+                                </div>
+                                <div class="card card-back ">
+                                    <div class="card-body">
+                                        <a href="https://rajkumarbehera.hashnode.dev/understanding-the-linux-directory-structure" class="btn btn-outline-danger  rounded-pill" target="_blank">Read Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mix linux">
+                      <div class="card-container ">
+                          <div class="card-flip shadow-lg">
+                              <div class="card card-front">
+                                  <img src="./Images/Blog-images/Linux-different-file-types.jpg" class="card-img-top" alt="Card Front">
+                              </div>
+                              <div class="card card-back ">
+                                  <div class="card-body">
+                                      <a href="https://rajkumarbehera.hashnode.dev/understanding-different-linux-file-types" class="btn btn-outline-danger  rounded-pill" target="_blank">Read Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mix linux">
+                    <div class="card-container ">
+                        <div class="card-flip shadow-lg">
+                            <div class="card card-front">
+                                <img src="./Images/Blog-images/Linux-Archive-and-its-types.jpg" class="card-img-top" alt="Card Front">
+                            </div>
+                            <div class="card card-back ">
+                                <div class="card-body">
+                                    <a href="https://rajkumarbehera.hashnode.dev/how-to-master-linux-archives-tar-gzip-and-gunzip-explained" class="btn btn-outline-danger  rounded-pill" target="_blank">Read Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mix linux">
+                  <div class="card-container ">
+                      <div class="card-flip shadow-lg">
+                          <div class="card card-front">
+                              <img src="./Images/Blog-images/Linux-find-command.jpg" class="card-img-top" alt="Card Front">
+                          </div>
+                          <div class="card card-back ">
+                              <div class="card-body">
+                                  <a href="https://rajkumarbehera.hashnode.dev/mastering-the-find-command-in-linux" class="btn btn-outline-danger  rounded-pill" target="_blank">Read Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mix docker">
+                <div class="card-container ">
+                    <div class="card-flip shadow-lg">
+                        <div class="card card-front">
+                            <img src="./Images/Blog-images/What-is-docker.jpg" class="card-img-top" alt="Card Front">
+                        </div>
+                        <div class="card card-back ">
+                            <div class="card-body">
+                                <a href="https://rajkumarbehera.hashnode.dev/beginners-introduction-to-docker" class="btn btn-outline-danger  rounded-pill" target="_blank">Read Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mix docker">
+              <div class="card-container ">
+                  <div class="card-flip shadow-lg">
+                      <div class="card card-front">
+                          <img src="./Images/Blog-images/Docker-images.jpg" class="card-img-top" alt="Card Front">
+                      </div>
+                      <div class="card card-back ">
+                          <div class="card-body">
+                              <a href="https://rajkumarbehera.hashnode.dev/understanding-docker-images" class="btn btn-outline-danger  rounded-pill" target="_blank">Read Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mix docker">
+            <div class="card-container ">
+                <div class="card-flip shadow-lg">
+                    <div class="card card-front">
+                        <img src="./Images/Blog-images/Docker-conatiners.jpg" class="card-img-top" alt="Card Front">
+                    </div>
+                    <div class="card card-back ">
+                        <div class="card-body">
+                            <a href="https://rajkumarbehera.hashnode.dev/introduction-to-docker-containers" class="btn btn-outline-danger  rounded-pill" target="_blank">Read Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mix docker">
+          <div class="card-container ">
+              <div class="card-flip shadow-lg">
+                  <div class="card card-front">
+                      <img src="./Images/Blog-images/Docker-swarm.jpg" class="card-img-top" alt="Card Front">
+                  </div>
+                  <div class="card card-back ">
+                      <div class="card-body">
+                          <a href="https://rajkumarbehera.hashnode.dev/a-comprehensive-guide-to-docker-swarm" class="btn btn-outline-danger  rounded-pill" target="_blank">Read Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class ="col-lg-12 mix box-item cloud blog-card mt-3">
+        <div class="card">
+            <h3 class="overlay-title font-weight-bold" style="color: #dc3545;"> Sorry, there are no blogs in Cloud category till now 😑.</h3>
+
+      </div>
+      </div>
+
+
+                </div>
+            </div>
+
+
+
+          </div>
+      </div>
+    </section>
 
 
         <!-- Project Section -->
-    <section id="projects" >
+      <section id="projects" >
       <div class="container">
         <h2 class="pb-5 pt-5" >My Projects</h2>
           <div class="row">
-              <div class="col-md-4">
-                  <div class="card">
-                      <img src="/Images/Project-Images/ExcelProject-1.png" alt="Project 1">
+              <div class="col-md-4 project">
+                  <div class="card ">
+                      <img src="./Images/Project-Images/ExcelProject-1.png" class="zoom" data-magnify-src="./Images/Project-Images/ExcelProject-1.png" alt="Excel Project">
                       <h4 align="center">Excel Data Analysis</h4>
                   </div>
               </div>
               <div class="col-md-4">
                   <div class="card">
-                      <img src="/Images/Project-Images/PortfolioProject-1.jpg" alt="Project 1">
+                      <img src="./Images/Project-Images/PortfolioProject-1.jpg" class="zoom" data-magnify-src="./Images/Project-Images/PortfolioProject-1.jpg" alt=" Portfolio Website ">
                       <h4 align="center">Portfolio Website</h4>
                   </div>
               </div>
               <div class="col-md-4">
                   <div class="card">
-                      <img src="/Images/Project-Images/Website-2.jpg" alt="Project 1">
+                      <img src="./Images/Project-Images/Website-2.jpg" class="zoom" data-magnify-src="./Images/Project-Images/Website-2.jpg" alt="Ecommerce Website">
                       <h4 align="center">Ecommerce Site</h4>
                   </div>
               </div>
               <div class="col-md-4">
                   <div class="card">
-                      <img src="/Images/Project-Images/Server-Img.png" alt="Project 1">
+                      <img src="./Images/Project-Images/Server-Img.png" class="zoom" data-magnify-src="./Images/Project-Images/Server-Img.png" alt="Server 2016 Project">
                       <h4 align="center">Server 2016</h4>
                   </div>
               </div>
@@ -231,57 +386,58 @@
 
 
      <!-- Certificates Section -->
-     <section id="certificates">
-      <div class="container-fluid mb-5">
+      <section id="certificates">
+      <div class="container-fluid mb-5 certificates">
        
        <section class="customer-logos slider " >
-       <div class="slide slide-1 m-2 p-2 ">
-           <a href="/Images/Certificates-Images/" target="_blank">
-           <img src="/Images/Certificates-Images/Computer Networks Fundamentals.jpg" alt="Certificates"></a>
+         <div class="slide slide-1 m-2 p-2 ">
+           <a href="./Images/Certificates-Images/Computer Networks Fundamentals.jpg" target="_blank">
+           <img src="./Images/Certificates-Images/Computer Networks Fundamentals.jpg" class="zoom" data-magnify-src="./Images/Certificates-Images/Computer Networks Fundamentals.jpg" alt="Certificates"></a>
          </div>
          <div class="slide slide-2 m-2 p-2">
-           <a href="/Images/Certificates-Images/cert.jpg" target="_blank">
-           <img src="./Images/Certificates-Images/The Complete Computer Basics Course.jpg" alt="Certificates"></a>
+           <a href="./Images/Certificates-Images/The Complete Computer Basics Course.jpg" target="_blank">
+           <img src="./Images/Certificates-Images/The Complete Computer Basics Course.jpg" class="zoom" data-magnify-src="./Images/Certificates-Images/The Complete Computer Basics Course.jpg" alt="Certificates"></a>
          </div>
          <div class="slide slide-1 m-2 p-2">
-          <a href="/Images/Certificates-Images/cert.jpg" target="_blank">
-          <img src="./Images/Certificates-Images/Secure your IT Systems & Network For Sys Admins + Engineers.jpg" alt="Certificates"></a>
+          <a href="./Images/Certificates-Images/Secure your IT Systems & Network For Sys Admins + Engineers.jpg" target="_blank">
+          <img src="./Images/Certificates-Images/Secure your IT Systems & Network For Sys Admins + Engineers.jpg" class="zoom" data-magnify-src="./Images/Certificates-Images/Secure your IT Systems & Network For Sys Admins + Engineers.jpg" alt="Certificates"></a>
         </div>
         <div class="slide slide-2 m-2 p-2">
-          <a href="/Images/Certificates-Images/cert.jpg" target="_blank">
-          <img src="./Images/Certificates-Images/Ubuntu Linux for beginners.jpg" alt="Certificates"></a>
+          <a href="./Images/Certificates-Images/Ubuntu Linux for beginners.jpg" target="_blank">
+          <img src="./Images/Certificates-Images/Ubuntu Linux for beginners.jpg" class="zoom" data-magnify-src="./Images/Certificates-Images/Ubuntu Linux for beginners.jpg" alt="Certificates"></a>
         </div>
         <div class="slide slide-1 m-2 p-2">
-          <a href="/Images/Certificates-Images/cert.jpg" target="_blank">
-          <img src="./Images/Certificates-Images/Cyber Security Awareness Training For Absolute Beginners.jpg" alt="Certificates"></a>
+          <a href="./Images/Certificates-Images/Cyber Security Awareness Training For Absolute Beginners.jpg" target="_blank">
+          <img src="./Images/Certificates-Images/Cyber Security Awareness Training For Absolute Beginners.jpg" class="zoom" data-magnify-src="./Images/Certificates-Images/Cyber Security Awareness Training For Absolute Beginners.jpg" alt="Certificates"></a>
         </div>
         <div class="slide slide-2 m-2 p-2">
-          <a href="/Images/Certificates-Images/cert.jpg" target="_blank">
-          <img src="./Images/Certificates-Images/CyberSecurity Bootcamp The Ultimate Beginner's Course.jpg" alt="Certificates"></a>
+          <a href="./Images/Certificates-Images/CyberSecurity Bootcamp The Ultimate Beginner's Course.jpg" target="_blank">
+          <img src="./Images/Certificates-Images/CyberSecurity Bootcamp The Ultimate Beginner's Course.jpg" class="zoom" data-magnify-src="./Images/Certificates-Images/CyberSecurity Bootcamp The Ultimate Beginner's Course.jpg" alt="Certificates">
+        </a>
         </div>
         <div class="slide slide-1 m-2 p-2">
-          <a href="/Images/Certificates-Images/cert.jpg" target="_blank">
-          <img src="./Images/Certificates-Images/Mastering Network Security Defending Against Cyber Threats.jpg" alt="Certificates"></a>
+          <a href="./Images/Certificates-Images/Mastering Network Security Defending Against Cyber Threats.jpg" target="_blank">
+          <img src="./Images/Certificates-Images/Mastering Network Security Defending Against Cyber Threats.jpg" class="zoom" data-magnify-src="./Images/Certificates-Images/Mastering Network Security Defending Against Cyber Threats.jpg" alt="Certificates"></a>
         </div>
         <div class="slide slide-2 m-2 p-2">
-          <a href="/Images/Certificates-Images/cert.jpg" target="_blank">
-          <img src="./Images/Certificates-Images/CSS, Bootstrap, JavaScript And PHP Stack Complete Course.jpg" alt="Certificates"></a>
+          <a href="./Images/Certificates-Images/CSS, Bootstrap, JavaScript And PHP Stack Complete Course.jpg" target="_blank">
+          <img src="./Images/Certificates-Images/CSS, Bootstrap, JavaScript And PHP Stack Complete Course.jpg" class="zoom" data-magnify-src="./Images/Certificates-Images/CSS, Bootstrap, JavaScript And PHP Stack Complete Course.jpg" alt="Certificates"></a>
         </div>
         <div class="slide slide-1 m-2 p-2">
-          <a href="/Images/Certificates-Images/cert.jpg" target="_blank">
-          <img src="./Images/Certificates-Images/The Complete MySQL.jpg" alt="Certificates"></a>
+          <a href="./Images/Certificates-Images/The Complete MySQL.jpg" target="_blank">
+          <img src="./Images/Certificates-Images/The Complete MySQL.jpg" class="zoom" data-magnify-src="./Images/Certificates-Images/The Complete MySQL.jpg" alt="Certificates"></a>
         </div>
         <div class="slide slide-2 m-2 p-2">
-          <a href="/Images/Certificates-Images/cert.jpg" target="_blank">
-          <img src="./Images/Certificates-Images/Essential Microsoft Excel from Beginner to Advance level.jpg" alt="Certificates"></a>
+          <a href="./Images/Certificates-Images/Essential Microsoft Excel from Beginner to Advance level.jpg" target="_blank">
+          <img src="./Images/Certificates-Images/Essential Microsoft Excel from Beginner to Advance level.jpg" class="zoom" data-magnify-src="./Images/Certificates-Images/Essential Microsoft Excel from Beginner to Advance level.jpg" alt="Certificates"></a>
         </div>
         <div class="slide slide-1 m-2 p-2">
-          <a href="/Images/Certificates-Images/cert.jpg" target="_blank">
-          <img src="./Images/Certificates-Images/Advanced Excel Course for Job and Real World.jpg" alt="Certificates"></a>
+          <a href="./Images/Certificates-Images/Advanced Excel Course for Job and Real World.jpg" target="_blank">
+          <img src="./Images/Certificates-Images/Advanced Excel Course for Job and Real World.jpg" class="zoom" data-magnify-src="./Images/Certificates-Images/Advanced Excel Course for Job and Real World.jpg" alt="Certificates"></a>
         </div>
         <div class="slide slide-2 m-2 p-2">
-          <a href="/Images/Certificates-Images/cert.jpg" target="_blank">
-          <img src="./Images/Certificates-Images/Power BI Mastery Advanced Data Analytics & Visualizations.jpg" alt="Certificates"></a>
+          <a href="./Images/Certificates-Images/Power BI Mastery Advanced Data Analytics & Visualizations.jpg" target="_blank">
+          <img src="./Images/Certificates-Images/Power BI Mastery Advanced Data Analytics & Visualizations.jpg" class="zoom" data-magnify-src="./Images/Certificates-Images/Power BI Mastery Advanced Data Analytics & Visualizations.jpg" alt="Certificates"></a>
         </div>
        </section>
      </div>
@@ -415,11 +571,12 @@
                 <a href="#contact">Contact</a>
               </div>
               <div class="social-icons">
-                <a href="mailto:rb436631@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-beat-fade fa-2xl mr-2" style="color: #dc3545;"></i></a>
-                <a href="https://www.linkedin.com/in/raj-kumar-behera-b2a80226b/" target="_blank"><i class="fa-brands fa-linkedin fa-beat-fade fa-2xl mr-2" style="color: #dc3545;"></i></a>
-                <a href="https://github.com/Raj140620" target="_blank"><i class="fa-brands fa-github fa-beat-fade fa-2xl mr-2" style="color: #dc3545;"></i></a>
-                <a href="https://www.facebook.com/rajkumar.behera.923519" target="_blank"><i class="fa-brands fa-facebook fa-beat-fade fa-2xl mr-2" style="color: #dc3545;"></i></a>
-                <a href="https://www.instagram.com/rajkumarbehera14/" target="_blank"><i class="fa-brands fa-instagram fa-beat-fade fa-2xl" style="color: #dc3545;"></i></a>
+                <a href="mailto:rb436631@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-beat-fade fa-2xl mr-3" style="color: #dc3545;"></i></a>
+                <a href="https://www.linkedin.com/in/raj-kumar-behera-b2a80226b/" target="_blank"><i class="fa-brands fa-linkedin fa-beat-fade fa-2xl mr-3" style="color: #dc3545;"></i></a>
+                <a href="https://github.com/Raj140620" target="_blank"><i class="fa-brands fa-github fa-beat-fade fa-2xl mr-3" style="color: #dc3545;"></i></a>
+                <a href="https://www.facebook.com/rajkumar.behera.923519" target="_blank"><i class="fa-brands fa-facebook fa-beat-fade fa-2xl mr-3" style="color: #dc3545;"></i></a>
+                <a href="https://www.instagram.com/rajkumarbehera14/" target="_blank"><i class="fa-brands fa-instagram fa-beat-fade fa-2xl mr-3" style="color: #dc3545;"></i></a>
+                <a href="https://rajkumarbehera.hashnode.dev/" target="_blank"><i class="fas fa-blog fa-beat-fade fa-2xl" style="color: #dc3545;"></i></a>
               </div>
 
               <p class="mt-3">&copy; 2023 RKB Portfolio<br>All Rights Are Not Reserved<br>Free To Use 😊.</p>
@@ -439,14 +596,42 @@
 
     <!-- Slick Slider Java Script CDN -->
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js" ></script>
+    
+    
+    <!-- Mixitup Jquery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+
+
+    <!-- Magnifier (Project Section) Jquery CDN -->
+    <script src="./JS/magnifier/jquery.magnify.js"></script>
 
 
     <!-- Bootstrap Script CDN -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    
+    
 
 
     <!-- Own Java Script Link-->
-    <script src="/JS/main.js"></script>
+    <script src="./JS/main.js"></script>
+    
+    
+    
+     <!-- Mix It Up (Blog Section)  Script -->
+    <script>
+      $(document).ready(function(){
+          var mixer = mixitup('.box-list');
+      });
+  </script>
+
+
+    <!-- Magnify Js (Project Section)  Script -->
+<script>
+  $(document).ready(function() {
+    $('.zoom').magnify();
+  });
+  </script>
     
     
      <!-- IBM Chatbot Script -->

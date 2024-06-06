@@ -42,6 +42,8 @@ document.addEventListener("DOMContentLoaded",() =>{
   counter("count4",0,30,10000);
 })
 
+
+// ##### Slick Slider Design #####
 $(document).ready(function() {
 $('.customer-logos').slick({
     slidesToShow: 5,
